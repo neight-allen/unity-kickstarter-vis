@@ -1,0 +1,109 @@
+﻿//AlmostLogical Software - http://www.almostlogical.com - support@almostlogical.com
+
+class PPExcludedPropertiesInfo
+{
+    public static string ExclusionInfo =
+@"
+
+UnityEngine.Transform
+    -position
+    -eulerAngles
+    -localEulerAngles
+    -right
+    -up
+    -forward
+    -rotation
+    -parent
+UnityEngine.Renderer
+    -lightmapIndex
+    -lightmapTilingOffset
+    -material
+    -materials
+UnityEngine.MeshFilter
+    -mesh
+UnityEngine.Collider
+    -material
+UnityEngine.MonoBehaviour
+    -useGUILayout
+UnityEngine.ParticleEmitter
+    -particles
+UnityEngine.ParticleRenderer
+    -animatedTextureCount
+    -uvTiles
+    -widthCurve
+    -heightCurve
+    -rotationCurve
+UnityEngine.Rigidbody
+    -velocity
+    -angularVelocity
+    -centerOfMass
+    -inertiaTensorRotation
+    -inertiaTensor
+    -useConeFriction
+    -position
+    -rotation
+    -solverIterationCount
+    -sleepVelocity
+    -sleepAngularVelocity
+    -maxAngularVelocity
+UnityEngine.CharacterController
+    -detectCollisions
+    -isTrigger
+    -sharedMaterial
+UnityEngine.BoxCollider
+    -extents
+UnityEngine.MeshCollider
+    -mesh
+UnityEngine.WheelCollider
+    -motorTorque
+    -brakeTorque
+    -steerAngle
+    -isTrigger
+    -sharedMaterial
+UnityEngine.FixedJoint
+    -axis
+    -anchor
+UnityEngine.SpringJoint
+    -axis
+UnityEngine.CharacterJoint
+    -targetRotation
+    -targetAngularVelocity
+    -rotationDrive
+UnityEngine.AudioListener
+    -volume
+    -pause
+    -velocityUpdateMode
+UnityEngine.AudioSource
+    -time
+    -timeSamples
+    -ignoreListenerVolume
+    -velocityUpdateMode
+    -minVolume
+    -maxVolume
+    -rolloffFactor
+UnityEngine.AudioReverbFilter
+    -roomRolloff
+UnityEngine.Camera
+    -fov
+    -near
+    -far
+    -aspect
+    -orthograhic
+    -pixelRect
+    -aspect
+    -worldToCameraMatrix
+    -projectionMatrix
+    -layerCullDistances
+    -depthTextureMode
+UnityEngine.Projector
+    -isOrthoGraphic
+    -orthoGraphicSize
+UnityEngine.GUIText
+    -material
+UnityEngine.Animation
+    -wrapMode
+UnityEngine.Tree
+    -data
+
+";
+}
